@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Geostar%20Fill);
+@import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+.logoText{
+    font-family: 'Geostar Fill';
+    font-size: 35px;
+    color: #ffffff;
+    margin: 0 0 0 0;
+}
+
+#logoWrapper{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.sidebar{
+    height: 100%;
+    width:14vw;
+    min-width: 200px;
+    background: rgb(44,73,131);
+    background: linear-gradient(180deg, rgba(44,73,131,1) 38%, rgba(125,125,125,1) 100%);
+    overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+
+.sidebarList {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0 0 0 0;
+}
+
+#settingsIcon{
+    list-style-type: none;
+}
+
+.sidebarList .row{
+    color: white;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+#title{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#Home{
+    margin-top: 20px;
+}
+
+div#Login {
+    margin-left: 4px;
+    padding-top: 0%;
+}
+
+#Setting{
+    
+    margin-left: 0%;
+    
+}
+#logoimg{
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+#sideBarListWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+}
+.sidebaricon{
+    margin-bottom: 0px;
+}
+div#Note {
+    margin-right: 12px;
+}
+
+div#homeAndNote li:hover{
+    border-radius: 15px;
+    background-color: #5e7198;
+}
+
+div#logoutAndSettings li:hover
+{
+    border-radius: 15px;
+    background-color: #858c9c;
+}
+
+
+
+
+
